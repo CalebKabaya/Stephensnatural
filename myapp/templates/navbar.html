@@ -69,31 +69,31 @@
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">CATEGORIES</a>
                         <ul class="dropdown-menu">
-                            <li><a href="seedlings.html">Seedlings</a></li>
-                            <li><a href="indigenous-seeds.html">Indigenous Seeds</a></li>
-                            <li><a href="books.html">Books</a></li>
-                            <li><a href="other-products.html">Other Products</a></li>
+                            <li><a href="{% url 'seedlings'%}">Seedlings</a></li>
+                            <li><a href="{% url 'indigenous-seeds'%}">Indigenous Seeds</a></li>
+                            <li><a href="{% url 'books'%}">Books</a></li>
+                            <li><a href="{% url 'other_products'%}">Other Products</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Outgrowers</a>
                         <ul class="dropdown-menu">
-                            <li><a href="outgrowers.html">Outgrowers</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="client's-projects.html">Client's Projects</a></li>
+                            <li><a href="{% url 'outgrowers'%}">Outgrowers</a></li>
+                            <li><a href="{% url 'services'%}">Services</a></li>
+                            <li><a href="{% url 'clients_projects'%}">Client's Projects</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Articles</a>
                         <ul class="dropdown-menu">
-                            <li><a href="natural-treatment.html">Natural Treatment</a></li>
-                            <li><a href="edible-weeds.html">Edible Weeds</a></li>
-                            <li><a href="fruit-growing.html">Fruit Growing</a></li>
-                            <li><a href="plant-disease-treatment.html">Plant Disease Treatment</a></li>
+                            <li><a href="{% url 'natural_treatment'%}">Natural Treatment</a></li>
+                            <li><a href="{% url 'edible_weeds'%}">Edible Weeds</a></li>
+                            <li><a href="{% url 'fruit_growing'%}">Fruit Growing</a></li>
+                            <li><a href="{% url 'plant_disease_treatment'%}">Plant Disease Treatment</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'gallery'%}">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'contact_us'%}">Contact Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

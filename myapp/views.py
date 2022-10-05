@@ -20,14 +20,43 @@ def myaccount(request):
 def wishlist(request):
     return render (request, "wishlist.html")
 
-def seadlings(request):
-    return render (request, "seadlings.html")
+def seedlings(request):
+    return render (request, "seedlings.html")
 
 def indigenous_seeds(request):
-    return render (request, "indigenous_seeds.html") 
+    return render (request, "indigenous-seeds.html") 
 
 def books(request):
     return render (request, "books.html")
 
 def other_products(request):
-    return render (request, "other_products.html")
+    return render (request, "other-products.html")
+
+def outgrowers(request):
+    return render (request, "outgrowers.html")
+
+def services(request):
+    return render (request, "services.html")
+
+def clients_projects(request):
+    return render (request, "client's-projects.html") 
+
+def natural_treatment(request):
+    return render (request, "natural-treatment.html")
+
+def edible_weeds(request):
+    return render (request, "edible-weeds.html")
+
+def fruit_growing(request):
+    return render (request, "fruit-growing.html")
+
+def plant_disease_treatment(request):
+    return render (request, "plant-disease-treatment.html")
+
+def gallery(request):
+
+    return render (request, "gallery.html")
+
+def contact_us(request):
+
+    return render (request, "contact-us.html")    
