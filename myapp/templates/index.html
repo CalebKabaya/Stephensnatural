@@ -1,5 +1,6 @@
 {% extends 'base.html'%}
 {% block content%}
+{% load static %}
 
 <body>
   
@@ -8,7 +9,7 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/CUSTARD-APPLE.jpg" alt="">
+                <img src="{% static 'images/CUSTARD-APPLE.jpg'%}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -20,7 +21,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/DANDELION LABEL2.png" alt="">
+                <img src="{% static 'images/DANDELION LABEL2.png'%}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -32,7 +33,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/tractor.jpeg" alt="">
+                <img src="{% static 'images/tractor.jpeg'%}" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -57,19 +58,19 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/8.jpeg" alt="" />
+                        <img class="img-fluid" src="{% static 'images/8.jpeg'%}" alt="" />
                         <a class="btn hvr-hover" href="#">Natural Vegetables</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/flour.jpg" alt="" />
+                        <img class="img-fluid" src="{% static 'images/flour.jpg'%}" alt="" />
                         <a class="btn hvr-hover" href="#">Natural Flour</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/foods.jpg" alt="" />
+                        <img class="img-fluid" src="{% static 'images/foods.jpg'%}" alt="" />
                         <a class="btn hvr-hover" href="#">Natural Vegetables</a>
                     </div>
                 </div>
@@ -83,12 +84,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/GUAVA.png" alt="" />
+						<img class="img-fluid" src="{% static 'images/GUAVA.png'%}" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/JACK FRUIT.png" alt="" />
+						<img class="img-fluid" src="{% static 'images/JACK FRUIT.png'%}" alt="" />
 					</div>
 				</div>
 			</div>
@@ -143,7 +144,7 @@
                         <div class="box-img-hover">
                             <div class="type-lb">
                             </div>
-                            <img src="images/seedlings/berry guava.jpg" class="img-fluid" alt="Image">
+                            <img src="{% static 'images/seedlings/berry guava.jpg'%}" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -166,7 +167,7 @@
                         <div class="box-img-hover">
                             <div class="type-lb">
                             </div>
-                            <img src="images/seedlings/sour sop.jpg" class="img-fluid" alt="Image">
+                            <img src="{% static 'images/seedlings/sour sop.jpg'%}" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -189,7 +190,7 @@
                         <div class="box-img-hover">
                             <div class="type-lb">
                             </div>
-                            <img src="images/seedlings/custard apple.jpg" class="img-fluid" alt="Image">
+                            <img src="{% static 'images/seedlings/custard apple.jpg'%}" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -212,7 +213,7 @@
                         <div class="box-img-hover">
                             <div class="type-lb">
                             </div>
-                            <img src="images/seedlings/persimmon.jpg" class="img-fluid" alt="Image">
+                            <img src="{% static 'images/seedlings/persimmon.jpg'%}" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -249,7 +250,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blackgold.jpg" alt="" />
+                            <img class="img-fluid" src="{% static 'images/blackgold.jpg'%}" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -268,7 +269,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/goldennugget.jpg" alt="" />
+                            <img class="img-fluid" src="{% static 'images/goldennugget.jpg'%}" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -286,7 +287,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/honeygold.jpg" alt="" />
+                            <img class="img-fluid" src="{% static 'images/honeygold.jpg'%}" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -313,7 +314,7 @@
     <div class="main-instagram owl-carousel owl-theme">
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/BERRY.jpg" alt="" />
+                <img src="{% static 'images/fruits/BERRY.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -321,7 +322,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/GOOSEBERRY.jpg" alt="" />
+                <img src="{% static 'images/fruits/GOOSEBERRY.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -329,7 +330,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/ORANGE.jpg" alt="" />
+                <img src="{% static 'images/fruits/ORANGE.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -337,7 +338,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/fruit3.jpg" alt="" />
+                <img src="{% static 'images/fruits/fruit3.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -345,7 +346,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/POMEGRANATE 1.1.jpg" alt="" />
+                <img src="{% static 'images/fruits/POMEGRANATE 1.1.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -353,7 +354,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/PURPLE SWEET PASSION.jpg" alt="" />
+                <img src="{% static 'images/fruits/PURPLE SWEET PASSION.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -361,7 +362,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/fruit6.jpg" alt="" />
+                <img src="{% static 'images/fruits/fruit6.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -369,7 +370,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/fruit7.jpg" alt="" />
+                <img src="{% static 'images/fruits/fruit7.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -377,7 +378,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/fruit8.jpg" alt="" />
+                <img src="{% static 'images/fruits/fruit8.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -385,7 +386,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/STRAWBERRY GUAVA.jpg" alt="" />
+                <img src="{% static 'images/fruits/STRAWBERRY GUAVA.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -393,7 +394,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="images/fruits/TOMOKO.jpg" alt="" />
+                <img src="{% static 'images/fruits/TOMOKO.jpg'%}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
